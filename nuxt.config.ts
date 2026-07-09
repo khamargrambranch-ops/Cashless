@@ -13,8 +13,8 @@ export default defineNuxtConfig({
     head: {
       script: [
         {
-          // এখানে 'children' এর বদলে 'innerHTML' ব্যবহার করা হয়েছে
-          innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          // Nuxt 3 (unhead) requires 'children' for inline scripts to render properly
+          children: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -24,8 +24,8 @@ export default defineNuxtConfig({
       ],
       noscript: [
         {
-          // noscript এর ক্ষেত্রেও innerHTML ব্যবহার করা ভালো
-          innerHTML: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55ZSWSQF"
+          // noscript also requires 'children' in Nuxt 3 (unhead) to avoid crashing hydration
+          children: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55ZSWSQF"
           height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
           tagPosition: "bodyOpen",
         },

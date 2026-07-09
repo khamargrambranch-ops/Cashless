@@ -1,0 +1,6 @@
+{
+  "name": "Pubali Bank Bangla QR",
+  "description": "পূবালী ব্যাংক পিএলসি বাংলা কিউআর (Bangla QR) এর মাধ্যমে ক্যাশলেস ব্যবসার আধুনিক ডিজিটাল পেমেন্ট সমাধানের ল্যান্ডিং পেজ।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

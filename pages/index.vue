@@ -1043,23 +1043,23 @@ const faqs = [
     </footer>
 
     <!-- Floating mobile bar (Visible only on mobile) -->
-    <div class="md:hidden fixed bottom-4 inset-x-4 z-40 bg-slate-900/95 backdrop-blur-md border border-slate-700/50 p-3 rounded-2xl shadow-2xl flex items-center justify-between gap-3">
-      <div class="flex-1 flex flex-col text-left">
-        <span class="text-[10px] text-[#D4AF37] font-extrabold tracking-wider uppercase">জরুরী মার্চেন্ট সাপোর্ট:</span>
-        <span class="text-xs text-white font-bold truncate">পূবালী ব্যাংক বাংলা কিউআর</span>
+    <div class="md:hidden fixed bottom-4 inset-x-4 z-40 bg-slate-900/95 backdrop-blur-md border border-slate-700/50 p-2.5 rounded-2xl shadow-2xl flex items-center justify-between gap-2">
+      <div class="flex-1 min-w-0 flex flex-col text-left">
+        <span class="text-[9px] text-[#D4AF37] font-extrabold tracking-wider uppercase truncate">জরুরী মার্চেন্ট সাপোর্ট:</span>
+        <span class="text-[11px] text-white font-bold truncate">পূবালী ব্যাংক বাংলা কিউআর</span>
       </div>
       
-      <div class="flex gap-2 shrink-0">
+      <div class="flex gap-1.5 shrink-0">
         <a
           href="tel:01714091043"
-          class="px-3 py-2 bg-[#0A5C36] text-white text-xs font-bold rounded-xl border border-[#D4AF37]/10 flex items-center gap-1 hover:bg-[#0D7343] transition-all"
+          class="px-2.5 py-1.5 bg-[#0A5C36] text-white text-[11px] font-bold rounded-xl border border-[#D4AF37]/10 flex items-center gap-1 hover:bg-[#0D7343] transition-all"
         >
           <UIcon name="i-heroicons-phone" class="w-3.5 h-3.5" />
           <span>খামারগ্রাম</span>
         </a>
         <a
           href="tel:01335065865"
-          class="px-3 py-2 bg-[#D4AF37] text-slate-950 text-xs font-bold rounded-xl flex items-center gap-1 hover:bg-[#F3CD4E] transition-all"
+          class="px-2.5 py-1.5 bg-[#D4AF37] text-slate-950 text-[11px] font-bold rounded-xl flex items-center gap-1 hover:bg-[#F3CD4E] transition-all"
         >
           <UIcon name="i-heroicons-phone" class="w-3.5 h-3.5" />
           <span>বেলকুচি</span>

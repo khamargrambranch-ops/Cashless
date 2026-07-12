@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "nuxt dev --port=3000 --host=0.0.0.0",
-    "build": "nuxt generate && rm -rf dist && cp -r .output/public dist",
+    "build": "nuxi generate",
     "preview": "nuxt preview",
     "clean": "rm -rf .nuxt .output dist",
     "lint": "nuxi typecheck"
